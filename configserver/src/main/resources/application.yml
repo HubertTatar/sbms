@@ -11,4 +11,5 @@ spring:
       server:
         git:
           uri: https://github.com/HubertTatar/sbms/
+          search-paths: config
       name: configserver
