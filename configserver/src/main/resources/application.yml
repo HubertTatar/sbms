@@ -12,7 +12,9 @@ spring:
         git:
           uri: https://github.com/HubertTatar/sbms.git
           search-paths: config
-      name: configserver
+management:
+  security:
+    enabled: false
 #security:
 #  user:
 #    password: secret
