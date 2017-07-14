@@ -10,6 +10,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/HubertTatar/sbms/
+          uri: https://github.com/HubertTatar/sbms.git
           search-paths: config
       name: configserver
+#security:
+#  user:
+#    password: secret
+#    name: app
