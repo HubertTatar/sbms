@@ -10,11 +10,15 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/HubertTatar/sbms.git
+          #uri: https://github.com/HubertTatar/sbms.git
+          uri: file:///home/huta/workspace/java/springCloud
           search-paths: config
 management:
   security:
     enabled: false
+eureka:
+  client:
+    service-url: http://localhost:8000/eureka/
 #security:
 #  user:
 #    password: secret
