@@ -1,0 +1,14 @@
+---
+encrypt:
+  key: juhas
+server:
+  port: 8001
+spring:
+  config:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/HubertTatar/sbms/
+      name: configserver
