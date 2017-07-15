@@ -1,14 +1,11 @@
 spring:
   application:
-    name: users
+    name: account
   cloud:
       config:
         discovery:
           enabled: true
           service-id: config-server
-#        uri: http://localhost:8001
-#        username: app
-#        password: secret
   profiles:
     active: dev
 eureka:

@@ -18,7 +18,9 @@ management:
     enabled: false
 eureka:
   client:
-    service-url: http://localhost:8000/eureka/
+    serviceUrl:
+      defaultZone:  http://localhost:8000/eureka/
+
 #security:
 #  user:
 #    password: secret
