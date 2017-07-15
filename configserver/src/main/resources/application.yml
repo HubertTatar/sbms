@@ -7,11 +7,14 @@ spring:
   config:
     name: configserver
   cloud:
+    bus:
+      trace:
+        enabled: true
     config:
       server:
         git:
-          #uri: https://github.com/HubertTatar/sbms.git
           uri: file:///home/huta/workspace/java/springCloud
+          #uri: https://github.com/HubertTatar/sbms.git
           search-paths: config
 management:
   security:
