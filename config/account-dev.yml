@@ -1,0 +1,6 @@
+server:
+  port: 8003
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
