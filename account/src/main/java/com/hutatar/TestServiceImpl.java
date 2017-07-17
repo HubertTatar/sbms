@@ -6,6 +6,7 @@ import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+//https://spring.io/guides/gs/client-side-load-balancing/
 @Service
 public class TestServiceImpl implements TestService {
 
