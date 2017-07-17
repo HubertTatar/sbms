@@ -1,0 +1,18 @@
+
+spring:
+  application:
+    name: hystrix-dashboard
+eureka:
+  client:
+    serviceUrl:
+      defaultZone:  http://localhost:8000/eureka/
+server:
+  port: 8005
+info:
+  component: Turbine
+
+endpoints:
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
