@@ -8,7 +8,7 @@ import org.springframework.data.repository.Repository;
 interface AccountRepository extends Repository<Account, Long> {
     Page<Account> findAll(Pageable pageable);
     Account save(Account account);
-    Account delete(Long id);
+    void delete(Long id);
     Account findOne(Long id);
 
     default Account findOneOrThrow(Long id){

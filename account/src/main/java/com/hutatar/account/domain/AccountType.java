@@ -1,5 +1,5 @@
 package com.hutatar.account.domain;
 
-public enum AccountType {
+enum AccountType {
     FREE, MONTHLY, CONTRACT;
 }
